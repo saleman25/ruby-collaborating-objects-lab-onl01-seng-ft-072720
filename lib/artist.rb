@@ -23,11 +23,11 @@ def songs(song)
 end 
 
 def self.find_or_create_by_name(name) 
-  self.all.detect {|artist| artist.name == name } || Artist.new(name)
+  self.all.detect { |artist| artist.name == name } || Artist.new(name)
 end 
 
 def prints_song
-  @songs.each {|song| puts song.name} 
+  @songs.each { |song| puts song.name} 
 end  
   
   
