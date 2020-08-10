@@ -8,7 +8,7 @@ end
  
 def files
  @files = Dir.entries(@path)
- @files.delete if {| 
+ @files.delete if {|file|  
   
   
 end 
