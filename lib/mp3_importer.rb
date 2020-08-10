@@ -7,8 +7,8 @@ def initialize(file_name)
 end 
  
 def files
-  @files = Dir.entries(@path)
-  
+ @files = Dir.entries(@path)
+ @files.delete if {| 
   
   
 end 
