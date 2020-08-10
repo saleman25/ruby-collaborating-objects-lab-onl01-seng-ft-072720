@@ -15,7 +15,7 @@ def self.all
 end 
 
 def add_song(song) 
-  @@all << song
+  @@songs << song
 end 
 
 def songs(song) 
