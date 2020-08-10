@@ -7,7 +7,11 @@ def initialize(name)
   @artist = artist
 end 
   
- 
+def self.all 
+   
+end 
+  
+  
   
   
 end 
