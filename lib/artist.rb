@@ -13,7 +13,7 @@ def self.all
 end 
 
 def add_song 
-  @@all << song
+  @@songs << song
 end 
 
 def songs 
@@ -24,7 +24,7 @@ def self.find_or_create_by_name
 end 
 
 def prints_song
-  
+end  
   
   
 end 
