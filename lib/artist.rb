@@ -27,7 +27,7 @@ def self.find_or_create_by_name(name)
 end 
 
 def prints_song
-  @songs 
+  @songs.each {| 
 end  
   
   
