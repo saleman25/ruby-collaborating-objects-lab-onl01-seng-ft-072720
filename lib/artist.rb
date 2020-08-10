@@ -23,7 +23,7 @@ def songs(song)
 end 
 
 def self.find_or_create_by_name 
-  self.all.detect {|artist| }
+  self.all.detect {|artist| artist.name || }
 end 
 
 def prints_song
