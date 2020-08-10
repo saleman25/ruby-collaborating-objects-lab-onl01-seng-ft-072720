@@ -14,11 +14,11 @@ def self.all
    @@all 
 end 
 
-def add_song 
+def add_song(song) 
   @@songs << song
 end 
 
-def songs 
+def songs(song) 
   Song.all.select {|song| song.artist == self }
 end 
 
