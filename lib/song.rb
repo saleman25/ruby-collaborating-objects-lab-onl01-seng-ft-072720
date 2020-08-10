@@ -11,7 +11,7 @@ def initialize(name)
 end 
   
 def self.all 
-  @@all  
+  @name  
 end 
   
 def self.new_by_filename
