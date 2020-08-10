@@ -6,7 +6,7 @@ attr_accessor :name
 
 def initialize(name)
   @name = name 
-  @songs = []
+  @@songs = []
   @@all
 end 
   
@@ -15,7 +15,7 @@ def self.all
 end 
 
 def add_song(song) 
-  @songs << song
+  @@songs << song
 end 
 
 def songs(song) 
