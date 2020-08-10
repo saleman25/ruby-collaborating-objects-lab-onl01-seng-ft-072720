@@ -1,6 +1,8 @@
 class Song 
   
 attr_accessor :name , :artist
+
+@@all = []
  
 def initialize(name)
   @name = name 
@@ -8,7 +10,7 @@ def initialize(name)
 end 
   
 def self.all 
-  @name  
+  @@all   
 end 
   
 def self.new_by_filename(file_name)
