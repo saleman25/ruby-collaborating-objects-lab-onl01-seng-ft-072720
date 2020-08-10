@@ -11,7 +11,7 @@ def initialize(name)
 end 
   
 def self.all 
-   @name 
+   self 
 end 
 
 def add_song(song) 
