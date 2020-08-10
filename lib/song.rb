@@ -7,9 +7,13 @@ attr_accessor :name , :artist
 def initialize(name)
   @name = name 
   @artist = artist
+  save 
+  @all 
 end 
   
-  
+def save
+  @@all << self 
+end   
   
   
 def self.all 
