@@ -14,7 +14,7 @@ end
 def import  
   self.files.each do |file|
     Song.new_by_filename(file)
-    Artist.all << song.artist unless 
+    Artist.all << song.artist unless Artist.all.include?(song)
   end 
 end   
   
